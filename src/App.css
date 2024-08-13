@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: x-large;
+  font-weight: bolder;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.one {
+  background-color: #b5cfb7;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.two {
+  background-color: hsl(185, 61%, 51%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 95%;
+  border: 3px solid black;
+  padding: 0;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  border: 3px solid black;
+  height: calc(84vh - 6px); 
+  width: 97%;
+  padding: 0;
+  margin: 0;
+}
+
+#box-profile,
+#box-ProfileName,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6 {
+  border: 2px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+#box-profile {
+  height: calc(73.5vh - 4px); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profilepic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#box-ProfileName {
+  height: calc(10vh - 4px);
+  width: 100%;
+}
+
+#box2,
+#box3 {
+  height: calc(20vh - 4px);
+  width: 100%;
+}
+
+#box4,
+#box5,
+#box6 {
+  height: calc(44vh - 4px);
+  width: 100%;
+}
+
+.Profilepic {
+  background-color: white;
+  width: 100%;
+}
+
+.ProfileName {
+  background-color: #219c90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CenterAligned {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.TopCenterAligned {
+  background-color: #219c90;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.TopLeft {
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.Bottom {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.BottomRight {
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
 }
